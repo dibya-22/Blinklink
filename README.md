@@ -24,12 +24,12 @@ A lightning-fast, modern URL shortener built with Next.js 13, featuring a sleek 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dibya-22/blinklink.git
+git clone https://github.com/dibya-22/Blinklink.git
 ```
 
 2. Install dependencies:
 ```bash
-cd blinkl!nk
+cd Blinklink
 npm install
 ```
 
@@ -91,7 +91,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Dibya - [GitHub](https://github.com/dibya-22)
 
-Project Link: [https://github.com/dibya-22/blinklink](https://github.com/dibya-22/blinklink)
+Project Link: [https://github.com/dibya-22/Blinklink](https://github.com/dibya-22/Blinklink)
 
 ## 🙏 Acknowledgments
 
