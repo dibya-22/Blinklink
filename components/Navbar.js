@@ -85,7 +85,7 @@ const Navbar = ({ className }) => {
                         </Link>
                     </li>
                     <li>
-                        <Link href={"https://github.com/dibya-22"} title='Github' target='_blank'>
+                        <Link href={"https://github.com/dibya-22/Blinklink"} title='Github' target='_blank'>
                             <button onClick={() => setIsMenuOpen(false)} className='p-1'>
                                 <Image width={28} height={28} src="/icons/github.png" alt="Github" 
                                     className='invert-75 hover:scale-125 hover:invert-100'/>
