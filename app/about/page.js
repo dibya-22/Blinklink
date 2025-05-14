@@ -15,7 +15,7 @@ const About = () => {
                     </span>
                 </h2>
                 <p className='text-base sm:text-lg mt-4 opacity-80 hover:opacity-100 leading-relaxed'>
-                    In today&apos;s fast-paced digital world, every second counts. That's why we've created the most efficient link shortening solution that transforms how you share links online. Simple, swift, and secure.
+                    In today&apos;s fast-paced digital world, every second counts. That&apos;s why we&apos;ve created the most efficient link shortening solution that transforms how you share links online. Simple, swift, and secure.
                 </p>
             </div>
 
@@ -52,7 +52,7 @@ const About = () => {
                                 🔐 Privacy First
                             </summary>
                             <div className="p-4 bg-slate-600/50 mt-2 rounded-xl text-sm sm:text-base leading-relaxed">
-                                We don’t track your clicks or sell your data. Your links are yours alone.
+                                We don&apos;t track your clicks or sell your data. Your links are yours alone.
                             </div>
                         </details>
                     </li>

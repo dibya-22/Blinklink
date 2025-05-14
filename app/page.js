@@ -11,16 +11,17 @@ export default function Home() {
             World&apos;s Quickest Link Shortener
           </h1>
           
-          <p className="text-base sm:text-lg max-w-xl text-gray-200">
+          <p className="text-base sm:text-lg max-w-xl text-gray-200 leading-relaxed">
             Your go-to solution for shortening links quickly and efficiently.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 items-center justify-center">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 items-center justify-center w-full sm:w-auto">
             <Link 
               href="/shorten"
               className="bg-blue-900 px-8 py-3 rounded-xl hover:bg-blue-950 
                 hover:scale-105 transition-all duration-300 text-lg text-white
-                text-center shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[160px]"
+                text-center shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[160px]
+                active:scale-95"
             >
               Start Now
             </Link>
@@ -29,7 +30,8 @@ export default function Home() {
               href="/about"
               className="bg-gray-600 px-8 py-3 rounded-xl hover:bg-gray-700 
                 hover:scale-105 transition-all duration-300 text-lg text-white
-                text-center shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[160px]"
+                text-center shadow-lg hover:shadow-xl w-full sm:w-auto min-w-[160px]
+                active:scale-95"
             >
               Learn More
             </Link>
@@ -43,6 +45,7 @@ export default function Home() {
             alt="URL Shortener Illustration"
             fill
             priority
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-contain"
           />
         </div>
