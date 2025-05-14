@@ -1,5 +1,9 @@
 # blinkl!nk - Modern URL Shortener
 
+![Next.js](https://img.shields.io/badge/Next.js-13-black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ![blinkl!nk](public/vector.png)
 
 A lightning-fast, modern URL shortener built with Next.js 13, featuring a sleek UI and powerful functionality.
@@ -14,11 +18,27 @@ A lightning-fast, modern URL shortener built with Next.js 13, featuring a sleek 
 
 ## 🚀 Tech Stack
 
-- **Frontend**: Next.js 13, React, TailwindCSS
-- **Language**: JavaScript/TypeScript
-- **Styling**: Tailwind CSS with custom configurations
-- **Icons**: Custom-optimized SVG icons
-- **Deployment**: Vercel
+- **Frontend**: 
+  - Next.js 13 (App Router)
+  - React 18
+  - TailwindCSS
+- **State Management**:
+  - React Hooks
+- **Language**: 
+  - TypeScript/JavaScript
+- **Styling**: 
+  - Tailwind CSS
+  - Custom animations
+  - Responsive design
+- **Icons & Assets**: 
+  - Custom-optimized SVG icons
+  - Optimized images
+- **Deployment**: 
+  - Vercel (Edge Network)
+- **Development Tools**:
+  - ESLint
+  - Prettier
+  - Git
 
 ## 🛠️ Installation
 
@@ -53,7 +73,13 @@ npm run dev
 
 ## 📱 Screenshots
 
-[Add screenshots of your application here]
+<div align="center">
+  <img src="public/screenshots/homepage.png" alt="BlinkLink Homepage" width="700"/>
+  <p><em>Homepage - Modern and intuitive interface</em></p>
+  
+  <img src="public/screenshots/shorten.png" alt="URL Shortening Interface" width="700"/>
+  <p><em>URL Shortening Interface - Simple and effective</em></p>
+</div>
 
 ## 🌟 Key Features Explained
 
@@ -72,6 +98,10 @@ npm run dev
 - No data tracking
 - Secure link generation
 - Privacy-first approach
+
+## 🌐 Live Demo
+
+Check out the live version: [BlinkLink Demo](your-demo-url-here)
 
 ## 🤝 Contributing
 
@@ -98,3 +128,5 @@ Project Link: [https://github.com/dibya-22/Blinklink](https://github.com/dibya-2
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vercel](https://vercel.com/)
+- <a href="https://www.youtube.com/@CodeWithHarry"><img src="https://yt3.googleusercontent.com/ytc/AIdro_kX3sdbuu3KFmRPsmlu0R5Rx_BhpxwupjtvJmkEdNfla7w=s160-c-k-c0x00ffffff-no-rj" width="20" height="20" style="border-radius: 50%; vertical-align: middle;"/> [Code With Harry](https://www.youtube.com/@CodeWithHarry)</a> - For the excellent tutorials and guidance
+````
