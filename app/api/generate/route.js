@@ -1,3 +1,6 @@
+export const runtime = 'nodejs';
+
+
 import clientPromise from "@/lib/mongodb"
 
 
