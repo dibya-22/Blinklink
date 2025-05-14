@@ -101,7 +101,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-Check out the live version: [BlinkLink Demo](your-demo-url-here)
+Check out the live version: [BlinkLink Demo](https://blinklink.vercel.app/)
 
 ## 🤝 Contributing
 
