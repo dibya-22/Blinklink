@@ -26,7 +26,7 @@ const About = () => {
                     To revolutionize link sharing by providing the fastest, most reliable, and user-friendly URL shortening service in the digital space.
                 </p>
             </div>
-
+            
             {/* Features Section */}
             <div className='mb-8 md:mb-12'>
                 <h2 className='text-2xl sm:text-3xl font-bold mb-4'>

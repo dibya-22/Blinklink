@@ -57,14 +57,13 @@ const Contact = () => {
     return (
         <div className='min-h-[calc(100vh-9rem)] w-[95vw] sm:w-[80vw] md:w-[70vw] lg:w-[60vw] 
             mx-auto px-4 flex flex-col items-center justify-center'>
-            <div className='w-full bg-[#435d6e]/90 backdrop-blur-sm rounded-2xl shadow-xl 
-                p-4 sm:p-6 md:p-8 transition-all duration-300 hover:shadow-2xl
-                transform hover:-translate-y-1'>
-                
                 <h1 className='font-bold text-2xl sm:text-3xl md:text-4xl text-white mb-4 text-center'>
                     Get in Touch
                 </h1>
-
+                <div className='w-full bg-[#435d6e]/90 backdrop-blur-sm rounded-2xl shadow-xl 
+                p-4 sm:p-6 md:p-8 transition-all duration-300 hover:shadow-2xl
+                transform hover:-translate-y-1'>
+                
                 <form onSubmit={handleSubmit} 
                     className='flex flex-col gap-3 sm:gap-4 w-full items-center'>
                     <div className='flex flex-col gap-2 w-full max-w-xl'>
@@ -152,11 +151,7 @@ const Contact = () => {
                         type="submit" 
                         disabled={isSubmitting}
                         className='w-full sm:w-2/3 md:w-1/2 bg-blue-600 hover:bg-blue-700 
-                            px-6 sm:px-8 py-2.5 sm:py-3 rounded-xl transition-all duration-300 
-                            transform hover:scale-[1.02] active:scale-95
-                            text-white text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl
-                            disabled:bg-gray-400 disabled:cursor-not-allowed
-                            disabled:transform-none'>
+                            px-6 sm:px-8 py-2.5 sm:py-3 rounded-xl transition-all duration-300'>
                         {isSubmitting ? 'Sending...' : 'Send Message'}
                     </button>
                 </form>
