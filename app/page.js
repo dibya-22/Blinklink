@@ -8,7 +8,7 @@ export default function Home() {
         {/* Content Section */}
         <div className="flex flex-col items-center justify-center gap-3 sm:gap-4 px-2 md:px-4 text-center">
           <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight max-w-2xl">
-            World's Quickest Link Shortener
+            World&apos;s Quickest Link Shortener
           </h1>
           
           <p className="text-base sm:text-lg max-w-xl text-gray-200">

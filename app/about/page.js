@@ -15,7 +15,7 @@ const About = () => {
                     </span>
                 </h2>
                 <p className='text-base sm:text-lg mt-4 opacity-80 hover:opacity-100 leading-relaxed'>
-                    In today's fast-paced digital world, every second counts. That's why we've created the most efficient link shortening solution that transforms how you share links online. Simple, swift, and secure.
+                    In today&apos;s fast-paced digital world, every second counts. That's why we've created the most efficient link shortening solution that transforms how you share links online. Simple, swift, and secure.
                 </p>
             </div>
 
